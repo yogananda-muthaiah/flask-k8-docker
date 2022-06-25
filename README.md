@@ -18,3 +18,9 @@ kubectl get deployments
 kubectl get pods
 kubectl get services
 ```
+
+
+```
+docker login
+docker tag hello-python <your-docker-hub-username>/hello-python
+docker push <your-docker-hub-username>/hello-python
